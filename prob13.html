@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let a=+prompt("enter the a");
+        let b=+prompt("enter the b");
+        let c=+prompt("enter the c");
+        if(a==b||b==c||c==a){
+            document.write("this triangle is a equilateral");
+        }
+        else if(((a+b)>c&&(a+c)>b&&(b+c)>a)){
+            document.write("this is a valid triangle");
+        }
+        else if(a==b&&b!=c){
+             document.write("this triangle is a isosceles");
+         }
+        // else if(){
+        //     document.write("this triangle is a equilateral");
+        // }
+    </script>
+</body>
+</html>
